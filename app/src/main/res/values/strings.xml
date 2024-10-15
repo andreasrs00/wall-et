@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">wall-et</string>
+    <string name="text_selamat">Selamat Datang</string>
+    <string name="text_masuk">DAFTAR</string>
 </resources>

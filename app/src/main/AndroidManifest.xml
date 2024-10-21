@@ -13,6 +13,21 @@
         android:theme="@style/Theme.Wallet"
         tools:targetApi="31">
         <activity
+            android:name=".afterDaftar"
+            android:exported="false" />
+        <activity
+            android:name=".signupPage"
+            android:exported="false" />
+        <activity
+            android:name=".loginPage"
+            android:exported="false" />
+        <activity
+            android:name=".landingPage"
+            android:exported="false" />
+        <activity
+            android:name=".loadingScreen"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true"
             android:label="@string/app_name"

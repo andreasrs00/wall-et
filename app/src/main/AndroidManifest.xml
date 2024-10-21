@@ -13,6 +13,12 @@
         android:theme="@style/Theme.Wallet"
         tools:targetApi="31">
         <activity
+            android:name=".afterDaftar"
+            android:exported="false" />
+        <activity
+            android:name=".signupPage"
+            android:exported="false" />
+        <activity
             android:name=".loginPage"
             android:exported="false" />
         <activity

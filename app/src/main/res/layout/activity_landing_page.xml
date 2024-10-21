@@ -43,7 +43,7 @@
         android:layout_marginTop="17dp"
         android:backgroundTint="@color/primary"
         android:textColor="@color/secondary"
-        android:text="@string/text_masuk"
+        android:text="@string/text_daftar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/tv_welcome" />
@@ -52,12 +52,23 @@
         android:id="@+id/tv_landingBawah"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="test"
+        android:text="Sudah Punya Akun?"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/btn_daftar"
         app:layout_constraintBottom_toBottomOf="parent"
         />
+    <TextView
+        android:id="@+id/tv_masuk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MASUK"
+        app:layout_constraintStart_toEndOf="@id/tv_landingBawah"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn_daftar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+
 
 
 
